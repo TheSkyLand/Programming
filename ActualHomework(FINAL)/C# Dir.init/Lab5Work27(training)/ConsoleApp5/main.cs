@@ -10,6 +10,9 @@ namespace LaboratoryWork5Var27
     {
         static void Main(string[] args)
         {
+            // подключение класса branching (branching() - конструктор)
+            // Obj - переменная обращения к классу branching
+            // с помощью неё происходит запрос к public данным
             branching Obj = new branching();
 
             Console.WriteLine("введите с: ");
