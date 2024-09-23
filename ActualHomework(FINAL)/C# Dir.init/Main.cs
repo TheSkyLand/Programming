@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -12,18 +12,17 @@ namespace ConsoleApp6
         static void Main(string[] args)
         {
             double[] x = { -1.5, 0.1, 12, 0, -2.2, 0.5, -1, 0.3 };
-            for (int i = 0; i < x.Length; i++)
-            {
-                if (x[i] < 0)
-                {
-                    double ElMin = x[i];
-                }
-            }
+            double ElMax = x.Max();
+            double ElMin = x.Min();
             for (int i = 0; i < x.Length; i++)
             {
                 if (x[i] > 0)
                 {
-                    double ElMax = x[i];
+                    x[i] = x.Max();
+                }
+                if (x[i] < 0)
+                {
+                    x[i] = x.Min();
                 }
             }
         }
