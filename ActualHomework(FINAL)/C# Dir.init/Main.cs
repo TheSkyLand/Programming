@@ -18,13 +18,18 @@ namespace ConsoleApp6
             {
                 if (x[i] > 0)
                 {
-                    x[i] = x.Max();
+                    x[i] = ElMax;
                 }
                 if (x[i] < 0)
                 {
-                    x[i] = x.Min();
+                    x[i] = ElMin;
                 }
             }
+            foreach (double d in x)
+            {
+                Console.WriteLine(d);
+            }
+            Console.ReadLine();
         }
     }
 }
