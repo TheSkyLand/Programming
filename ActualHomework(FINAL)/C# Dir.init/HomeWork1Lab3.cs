@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,15 +11,14 @@ namespace Homwork1Lab3
         static void Main(string[] args)
         {
             double y;
-            for (double p = -4; p <= 4; p += 0.5) // p - ШАГ, ОТРЕЗОК(??)
+            for (double p = -4; p <= 4; p += 0.5)
             {
-                if (Math.Pow(p, 2) <= 0) // ошибочка??
+                if (Math.Pow(p, 2) - 1 <= 0)
                 {
-                    Math.Pow(p, 2);
-                    y = p - 1;
+                    y = Math.Pow(p, 2) - 1;
                     Console.WriteLine(y);
                 }
-                if ((p > 0) && p <= 5)
+                if (0 < p && p <= 1.5)
                 {
                     y = Math.Cos(p);
                     Console.WriteLine(y);
@@ -29,48 +28,67 @@ namespace Homwork1Lab3
                     y = Math.Sin(p - 1);
                     Console.WriteLine(y);
                 }
-                
+
             }
-            Console.WriteLine("--------------------------"); // выводится не так
-            double x = 0;
-            while (x >= 4)
+            Console.WriteLine("--------------------------");
+            double x = -4;
+            while (x <= 4)
             {
-                if (Math.Pow(x, 2) <= 0) // ошибочка??
+                if (Math.Pow(x, 2) - 1 <= 0)
                 {
-                    y = Math.Pow(x, 2);
+                    y = Math.Pow(x, 2) - 1;
                     Console.WriteLine(y);
                 }
-                if ((x > 0) && x >= 5)
+
+                x += 0.5;
+
+                if (0 < x && x <= 1.5)
                 {
                     y = Math.Cos(x);
                     Console.WriteLine(y);
                 }
+
+                x += 0.5;
+
                 if (x > 1.5)
                 {
                     y = Math.Sin(x - 1);
                     Console.WriteLine(y);
                 }
+
+                x += 0.5;
             }
-            Console.WriteLine("--------------------------"); // выводится не так
+            Console.WriteLine("--------------------------");
+
+
 
             do
             {
-                if (Math.Pow(x, 2) <= 0) // ошибочка
+                if (Math.Pow(x, 2) - 1 <= 0)
                 {
-                    y = Math.Pow(x, 2);
+                    y = Math.Pow(x, 2) - 1;
                     Console.WriteLine(y);
                 }
-                if ((x > 0) && x >= 5)
+
+                x += 0.5;
+
+                if (0 < x && x <= 1.5)
                 {
                     y = Math.Cos(x);
                     Console.WriteLine(y);
                 }
+
+                x += 0.5;
+
                 if (x > 1.5)
                 {
                     y = Math.Sin(x - 1);
                     Console.WriteLine(y);
                 }
-            } while (x >= 4);
+
+                x += 0.5;
+
+            } while (x <= 4);
         }
     }
 }
