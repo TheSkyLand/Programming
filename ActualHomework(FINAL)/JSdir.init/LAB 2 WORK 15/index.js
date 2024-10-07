@@ -1,11 +1,11 @@
 let s;
 let a = Number(prompt("Enter the value of a:"));
 let b = Number(prompt("Enter the value of b:"));
-let e = Number(prompt("Enter the value of e:"));
+
 let x = Number(prompt("Enter the value of x:"));
-let ElMax = Math.pow(x, 3);
-let ElMin = Math.sin(x) / x;
-let ElMax1 = Math.pow(a, x);
+let ElMax = Math.pow(x, 3); //Предположение
+let ElMin = Math.sin(x) / x; //Предположение
+let ElMax1 = Math.pow(a, x); //Предположение
 
 if (x < 2)
 {
@@ -14,9 +14,9 @@ if (x < 2)
 }
 if (x > 3)
 {
-    if (ElMax < Math.pow(e, x))
+    if (ElMax < Math.exp(x))
     {
-        ElMax = Math.pow(e, x);
+        ElMax = Math.exp(x);
     }
     if (ElMax < Math.pow(10, 3))
     {
@@ -36,12 +36,14 @@ else
             {
                 ElMax1 = Math.pow(x, 3);
             }
-            if (ElMax1 < x * Math.pow(Math.log(x), 2))
-            {
-                s = ElMax1 = x * Math.pow(Math.log(x), 2);
-            }
-            console.log("ElMin = " + ElMin);
-            console.log("ElMax1 = " + ElMax1);
-            console.log("s = " + s);
+    }        
+    if (ElMin > x * Math.pow(Math.log(), 2) * x)
+    {
+        ElMin = x * Math.pow(Math.log(), 2) * x;
     }
+    s = ElMin;
+    console.log("ElMin = " + ElMin);
+    console.log("ElMax1 = " + ElMax1);
+    console.log("s = " + s);
+    
 }
