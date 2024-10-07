@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Reflection.Metadata.Ecma335;
 
 namespace HomeWork17
@@ -8,11 +8,11 @@ namespace HomeWork17
         static void Main(string[] args)
         {
             double u;
-            Console.WriteLine("x");
+            Console.WriteLine("введите x: ");
             double x = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("z");
+            Console.WriteLine("введите z: ");
             double z = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("a");
+            Console.WriteLine("введите a: ");
             double a = Convert.ToDouble(Console.ReadLine());
             double ElMin = x;
             double ElMax = Math.Pow(x, 2);
