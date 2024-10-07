@@ -31,7 +31,7 @@ else
 {
     if (ElMin > ElMax1)
     {
-        ElMin = ElMax;
+        ElMin = ElMax1;
         if (ElMax1 < Math.pow(x, 3))
             {
                 ElMax1 = Math.pow(x, 3);
