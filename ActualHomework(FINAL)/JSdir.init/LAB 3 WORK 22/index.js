@@ -1,26 +1,35 @@
 let y;
 
 for (let x = -Math.PI; x <= Math.PI; x += Math.PI / 8) {
-    y = Math.sin(4)* x - 2
+    y = Math.sin(4 * x) - 2
     console.log(" Y = ", + y)
+    
 }
 
-console.log("----------------------------------------------------------------");
+console.log("--------------------------------------------");
 
-let x = 0;
+let x = -Math.PI;
 
 while (x <= Math.PI) {
-    y = Math.sin(4)* x - 2;
+    y = Math.sin(4 * x)- 2;
     x += Math.PI / 8;
     console.log(" Y = ", + y)
 }
 
-console.log("----------------------------------------------------------------");
 
-x = 0;
+
+console.log("--------------------------------------------");
+
+x = -Math.PI;
 
 do {
-    y = Math.sin(4)* x - 2;
+    y = Math.sin(4* x) - 2;
     x += Math.PI / 8;
     console.log(" Y = ", + y)
+
 } while (x <= Math.PI);
+console.log("сумма значений при Y < 1.2");
+if (y < 1.2) 
+    {
+        console.log("сумма = ", y + (y * y));
+    }
