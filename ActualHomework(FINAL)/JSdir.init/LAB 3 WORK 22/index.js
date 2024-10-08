@@ -28,8 +28,3 @@ do {
     console.log(" Y = ", + y)
 
 } while (x <= Math.PI);
-console.log("сумма значений при Y < 1.2");
-if (y < 1.2) 
-    {
-        console.log("сумма = ", y + (y * y));
-    }
