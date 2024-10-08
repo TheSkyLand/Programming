@@ -42,8 +42,7 @@ namespace Homwork1Lab3
             double x = -4;
             while (x <= 4)
             {
-
-
+                x += 0.5;
                 if (Math.Pow(x, 2) - 1 <= 0)
                 {
                     y = Math.Pow(x, 2) - 1;
@@ -52,9 +51,6 @@ namespace Homwork1Lab3
                         Console.WriteLine(y);
                     }
                 }
-
-                x += 0.5;
-
                 if (0 < x && x <= 1.5)
                 {
                     y = Math.Cos(x);
@@ -62,10 +58,8 @@ namespace Homwork1Lab3
                     {
                         Console.WriteLine(y);
                     }
+
                 }
-
-                x += 0.5;
-
                 if (x > 1.5)
                 {
                     y = Math.Sin(x - 1);
@@ -73,17 +67,14 @@ namespace Homwork1Lab3
                     {
                         Console.WriteLine(y);
                     }
+
                 }
-
-
-                x += 0.5;
             }
             Console.WriteLine("--------------------------");
-
-
-
+            x = -4;
             do
             {
+                x += 0.5;
                 if (Math.Pow(x, 2) - 1 <= 0)
                 {
                     y = Math.Pow(x, 2) - 1;
@@ -92,9 +83,6 @@ namespace Homwork1Lab3
                         Console.WriteLine(y);
                     }
                 }
-
-                x += 0.5;
-
                 if (0 < x && x <= 1.5)
                 {
                     y = Math.Cos(x);
@@ -103,9 +91,6 @@ namespace Homwork1Lab3
                         Console.WriteLine(y);
                     }
                 }
-
-                x += 0.5;
-
                 if (x > 1.5)
                 {
                     y = Math.Sin(x - 1);
@@ -113,10 +98,8 @@ namespace Homwork1Lab3
                     {
                         Console.WriteLine(y);
                     }
+                    
                 }
-
-                x += 0.5;
-
             } while (x <= 4);
         }
     }
