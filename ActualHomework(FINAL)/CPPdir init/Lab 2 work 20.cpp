@@ -1,61 +1,56 @@
-﻿#include <iostream>
-#include <cmath> // МАТЕМАТИКААА!!!(НЕНАВИЖУ)
-// ЛАБОРАТОРНАЯ РАБОТА НОМЕР 2 ЗАДАЧА 20(ВРЕМЯ 3:10)
-using namespace std; // разрешаем использовать ctd, cout, cin и прочее
+#include <iostream>
+using namespace std;
 int main()
 {
-    // Определяем переменные :D
-    double a;
-    double b;
-    double c;
-    double x;
-    double y;
-    double v;
-    // устанавливаем русский язык
-    setlocale(LC_ALL, "Russian");
-    // запрашиваем а
-    cout << " Введите a = ";
-    cin >> a;
-    // запрашиваем b
-    cout << " Введите b = ";
-    cin >> b;
-    // запрашиваем с
-    cout << " Введите c = ";
-    cin >> c;
-    // запрашиваем x
-    cout << " Введите x = ";
-    cin >> x;
-    // запрашиваем y
-    cout << " Введите y = ";
-    cin >> y;
-    double ElMin = x;
-    double ElMax = pow(x, 2);
+	cout << "enter a: ";
+	double a;
+	cin >> a;
 
-    if (x < 3 && y < 0)
-    {
-        v = a + b + c * ElMin;
-            if (ElMin > y)
-            {
-                v = ElMin = y;
-                cout << v << " Переменная V при минимальном элементе " << v;
-                if (ElMin > (x + y / x - y))
-                {
-                    v = ElMin = (x + y / x - y);
-                    cout << v << " Переменная V при минимальном элементе 2 " << v;
-                }
-            }
-    }
-    if (x > 0 && y > 1)
-    {
-        if (ElMax < pow(y, 3))
-        {
-           v = ElMax = pow(y, 3);
-           cout << " Переменная V при максимальном элементе " << v;
-        }
-    }
-    else
-    {
-        v = y * (a + b + c);
-        cout << " Переменная V в противном случае " << v;
-    }
+	cout << "enter b: ";
+	double b;
+	cin >> b;
+
+	cout << "enter c: ";
+	double c;
+	cin >> c;
+
+	cout << "enter x: ";
+	double x;
+	cin >> x;
+
+	cout << "enter y: ";
+	double y;
+	cin >> y;
+
+	if (x < 3 && y < 0)
+	{
+		double ElMin = x; // SUGGEST
+		if (ElMin > y)
+		{
+			ElMin = y;
+		}
+		if (ElMin > (x + y) / (x - y)) 
+		{
+			ElMin = (x + y) / (x - y);
+		}
+		double v = ((a + b + c) / 2) * ElMin;
+		cout << v;
+	}
+	else if (x > 0 && y > 1)
+	{
+		double ElMax = pow(x, 2);
+		if (ElMax < pow(y, 3))
+		{
+			ElMax = pow(y, 3);
+		}
+		double v = ElMax = pow(y, 3);
+		cout << v;
+		
+	}
+	else
+	{
+	double v = y * (a + b + c);
+	cout << v;
+	}
+	
 }
