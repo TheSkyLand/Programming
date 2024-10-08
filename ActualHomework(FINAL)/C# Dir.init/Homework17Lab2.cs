@@ -14,45 +14,42 @@ namespace HomeWork17
             double z = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("введите a: ");
             double a = Convert.ToDouble(Console.ReadLine());
-            double ElMin = x;
-            double ElMin1 = x;
-            double ElMax = Math.Pow(x, 2);
+           
+            
+
             if (z > 0 && x > 0)
             {
-                if (Math.Log(x) * ElMin > z)
+                double ElMin = x;
+                if (ElMin > z)
                 {
-                   u = ElMin = z;
-                   Console.WriteLine(u);
+                   ElMin = z;
                 }
-            }
-            if (z < 0 && x < 0)
+                u = Math.Log(x) * ElMin;
+            } else if (z < 0 && x < 0)
             {
-                if (ElMax < Math.Pow(z, 2))
+                double ElMin = x;
+                if (ElMin > z)
                 {
-                    ElMax = Math.Pow(z, 2);
-                    u = ElMax;
-                    Console.WriteLine(u);
+                    ElMin = z;
                 }
-                if (ElMax < Math.Pow(-a, 2))
+
+                double ElMax = Math.Pow(z, 2) - Math.Pow(a, 2);
+
+                if (ElMax < Math.Pow(x, 2))
                 {
-                    ElMax = Math.Pow(-a, 2);
-                    u = ElMax;
-                    Console.WriteLine(u);
-                }
-                if (ElMin1 > z)
-                {
-                    ElMin1 = z;
-                    u = ElMin1;
-                    Console.WriteLine(u);
+                    ElMax = Math.Pow(x, 2);
+
                 }
                 u = ElMin;
-                Console.WriteLine(u);
+
             }
             else
             {
                 u = x + z;
-                Console.WriteLine(u);
             }
+
+
+            Console.WriteLine(u);
         }
 
     }
