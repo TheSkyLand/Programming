@@ -1,0 +1,5 @@
+﻿  Source.c
+C:\Users\Gamer\Documents\GitHub\Новая папка\Task2\ConsoleApplication6\Source.c(4,9): warning C4013: sqrt: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\Gamer\Documents\GitHub\Новая папка\Task2\ConsoleApplication6\Source.c(4,26): warning C4013: pow: нет определения; предполагается "extern" с возвратом типа "int"
+  Task2.cpp
+  ConsoleApplication6.vcxproj -> C:\Users\Gamer\Documents\GitHub\Новая папка\Task2\x64\Debug\ConsoleApplication6.exe
