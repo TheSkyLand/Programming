@@ -13,22 +13,22 @@ int main()
 	double Rc = 2;
 	double Ra = 7;
 
-	La = sqrt(Rb * Rc) * (pow(Rb + (Rc), 2) - pow(Ra, 2)) / (Rb + Rc);
+	La = operation(Rc, Rb, Ra);
 	cout << "Task" << endl << endl;
 
-	cout << " Ïðè b = " << Rb << " ïðè c = " << Rc << " ïðè a = " << Ra << " La(b, c, a) = " << La << endl << endl;
+	cout << " so b = " << Rb << " so c = " << Rc << " so a = " << Ra << " La(b, c, a) = " << La << endl << endl;
 
-	//ÇÀÏÐÎÑ ÄÀÍÍÛÕ
-	cout << " Ââåäèòå b: ";
+	//Data request
+	cout << " enter b: ";
 	cin >> WrB;
 
-	cout << " Ââåäèòå c: ";
+	cout << " enter c: ";
 	cin >> WrC;
 
-	cout << " Ââåäèòå a: ";
+	cout << " enter a: ";
 	cin >> WrA;
 
-	WrLa = sqrt(WrB * WrC) * (pow(WrB + (WrC), 2) - pow(WrA, 2)) / (WrB + WrC);
+	WrLa = operation(WrA, WrB, WrC);
 
-	cout << " Ïðè b = " << WrB << " ïðè c = " << WrC << " ïðè a = " << WrA << " La (b, c, a) = " << WrLa << endl << endl;
+	cout << " so b = " << WrB << " so c = " << WrC << " so a = " << WrA << " La (b, c, a) = " << WrLa << endl << endl;
 }
