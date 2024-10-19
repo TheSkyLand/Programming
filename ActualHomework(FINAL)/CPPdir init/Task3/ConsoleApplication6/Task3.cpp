@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
+double operation(double, double, double);
 int main()
 {
 	setlocale(LC_ALL, "Russian");
@@ -16,19 +16,19 @@ int main()
 	La = sqrt(Rb * Rc) * (pow(Rb + (Rc), 2) - pow(Ra, 2)) / (Rb + Rc);
 	cout << "Task" << endl << endl;
 
-	cout << " Ïðè b = " << Rb << " ïðè c = " << Rc << " ïðè a = " << Ra << " La(b, c, a) = " << La << endl << endl;
+	cout << " ÃÃ°Ã¨ b = " << Rb << " Ã¯Ã°Ã¨ c = " << Rc << " Ã¯Ã°Ã¨ a = " << Ra << " La(b, c, a) = " << La << endl << endl;
 
-	//ÇÀÏÐÎÑ ÄÀÍÍÛÕ
-	cout << " Ââåäèòå b: ";
+	//Ã‡Ã€ÃÃÃŽÃ‘ Ã„Ã€ÃÃÃ›Ã•
+	cout << " Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ b: ";
 	cin >> WrB;
 
-	cout << " Ââåäèòå c: ";
+	cout << " Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ c: ";
 	cin >> WrC;
 
-	cout << " Ââåäèòå a: ";
+	cout << " Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ a: ";
 	cin >> WrA;
 
 	WrLa = sqrt(WrB * WrC) * (pow(WrB + (WrC), 2) - pow(WrA, 2)) / (WrB + WrC);
 
-	cout << " Ïðè b = " << WrB << " ïðè c = " << WrC << " ïðè a = " << WrA << " La (b, c, a) = " << WrLa << endl << endl;
+	cout << " ÃÃ°Ã¨ b = " << WrB << " Ã¯Ã°Ã¨ c = " << WrC << " Ã¯Ã°Ã¨ a = " << WrA << " La (b, c, a) = " << WrLa << endl << endl;
 }
