@@ -1,0 +1,8 @@
+﻿  Task6.cpp
+C:\Users\Aradi\source\repos\ConsoleApplication9\ConsoleApplication9\Task6.cpp(11,9): error C2065: WrB: необъявленный идентификатор
+C:\Users\Aradi\source\repos\ConsoleApplication9\ConsoleApplication9\Task6.cpp(14,9): error C2065: WrC: необъявленный идентификатор
+C:\Users\Aradi\source\repos\ConsoleApplication9\ConsoleApplication9\Task6.cpp(17,9): error C2065: WrA: необъявленный идентификатор
+C:\Users\Aradi\source\repos\ConsoleApplication9\ConsoleApplication9\Task6.cpp(21,24): error C2065: WrB: необъявленный идентификатор
+C:\Users\Aradi\source\repos\ConsoleApplication9\ConsoleApplication9\Task6.cpp(21,45): error C2065: WrC: необъявленный идентификатор
+C:\Users\Aradi\source\repos\ConsoleApplication9\ConsoleApplication9\Task6.cpp(21,66): error C2065: WrA: необъявленный идентификатор
+C:\Users\Aradi\source\repos\ConsoleApplication9\ConsoleApplication9\Task6.cpp(21,95): error C2065: WrLa: необъявленный идентификатор
