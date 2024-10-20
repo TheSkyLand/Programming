@@ -14,7 +14,7 @@ int main()
 	double Rc = 2;
 	double Ra = 7;
 
-	La = sqrt(Rb * Rc) * (pow(Rb + (Rc), 2) - pow(Ra, 2)) / (Rb + Rc);
+	La = operation(double Rb, Rc, Ra);
 	cout << "Task" << endl << endl;
 
 	cout << " При b = " << Rb << " при c =" << Rc << " при a = " << Ra << " La(b, c, a) = " << La << endl << endl;

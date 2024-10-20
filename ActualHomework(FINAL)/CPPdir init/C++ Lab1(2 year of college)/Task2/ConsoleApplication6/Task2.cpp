@@ -13,22 +13,22 @@ int main()
 	double Rc = 2;
 	double Ra = 7;
 
-	La = sqrt(Rb * Rc) * (pow(Rb + (Rc), 2) - pow(Ra, 2)) / (Rb + Rc);
+	La = operation(Ra, Rc, Rb);
 	cout << "Task" << endl << endl;
 
-	cout << " Ïðè b = " << Rb << " ïðè c = " << Rc << " ïðè a = " << Ra << " La(b, c, a) = " << La << endl << endl;
+	cout << " ï¿½ï¿½ï¿½ b = " << Rb << " ï¿½ï¿½ï¿½ c = " << Rc << " ï¿½ï¿½ï¿½ a = " << Ra << " La(b, c, a) = " << La << endl << endl;
 
-	//ÇÀÏÐÎÑ ÄÀÍÍÛÕ
-	cout << " Ââåäèòå b: ";
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	cout << " ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ b: ";
 	cin >> WrB;
 
-	cout << " Ââåäèòå c: ";
+	cout << " ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ c: ";
 	cin >> WrC;
 
-	cout << " Ââåäèòå a: ";
+	cout << " ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ a: ";
 	cin >> WrA;
 
 	WrLa = sqrt(WrB * WrC) * (pow(WrB + (WrC), 2) - pow(WrA, 2)) / (WrB + WrC);
 
-	cout << " Ïðè b = " << WrB << " ïðè c = " << WrC << " ïðè a = " << WrA << " La (b, c, a) = " << WrLa << endl << endl;
+	cout << " ï¿½ï¿½ï¿½ b = " << WrB << " ï¿½ï¿½ï¿½ c = " << WrC << " ï¿½ï¿½ï¿½ a = " << WrA << " La (b, c, a) = " << WrLa << endl << endl;
 }
