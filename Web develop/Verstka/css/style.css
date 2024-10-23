@@ -27,6 +27,23 @@
   width: 1600px;
   margin: 0 auto;
 }
+.main-featured-top {
+  margin: 96px 0 0 0;
+  color: #222222;
+  text-transform: capitalize;
+  font-size: 30px;
+  text-align: center;
+}
+.main-featured-bottom {
+  color: #9F9F9F;
+  font-size: 14px;
+  text-align: center;
+  margin: 6px;
+}
+.main-featured-items-top-button {
+  width: 360px;
+  height: 582px;
+}
 .main-divider {
   position: absolute;
   width: 12px;
