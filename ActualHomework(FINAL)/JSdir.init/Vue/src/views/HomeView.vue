@@ -1,16 +1,14 @@
 <template>
-  <main class="wrapper">
-    Счётчик: <span :style="[counter % 5 == 0 ? 'color: red' : 'color: #2d40a3']"
-      :v-on="[counter % 3 == 0 ? comment = true : comment = false]">
-      {{ counter }}
-    </span>
-    <button class="wrapper-btn" @click="addCounter">Жми</button>
-    <ActiveButton active="Активация" @act="onChangeActive" />
-    <span class="wrapper-comment" v-show="comment">
-      Делится на 3 без остатка
-    </span>
-    <span class="wrapper-active" v-if="active">Вызов функции активации</span>
-  </main>
+  <div>
+      Счётчик:
+      <button
+        @click="addCounter"
+      >
+        Жми
+      </button>
+      <span v-show="comment" :style="[counter % 3 == 0 ? 'color: red' : 'color: #2d40a3']" >{{counter}}</span>
+ 
+    </div>
 </template>
 
 <script setup>
@@ -19,14 +17,21 @@ import ActiveButton from '@/components/ActiveButton.vue';
 
 name: "HomeView";
 
-const counter = ref(0);
-const comment = false;
+const counter = ref(50);
+const comment = ref(true);
 const active = ref(false);
 
 watchEffect(() => console.log(counter.value));
 
 function addCounter() {
   counter.value += 50;
+
+
+  if(counter.value % 3 == 0) {
+    comment.value = true;
+  } else {
+    comment.value = false;
+  }
 }
 
 function onChangeActive(value) {
