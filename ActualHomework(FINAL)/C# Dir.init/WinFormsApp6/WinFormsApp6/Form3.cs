@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -47,12 +47,13 @@ namespace WinFormsApp6
             double x42 = Convert.ToDouble(textBox14.Text);
             double x43 = Convert.ToDouble(textBox15.Text);
             double x44 = Convert.ToDouble(textBox16.Text);
-            double delta1 = (x22 * x33 * x44) + (x23 * x34 * x42) + (x32 * x43 * x24) - (x24 * x33 * x42) - (x24 * x32 * x43) - (x42 * x23 * x34);
 
-            double delta2 = (x21 * x33 * x44) + (x23 * x34 * x41) + (x31 * x43 * x24) - (x24 * x33 * x41) - (x24 * x31 * x43) - (x41 * x23 * x34);
-            double delta3 = (x21 * x32 * x44) + (x22 * x34 * x41) + (x31 * x42 * x24) - (x24 * x32 * x41) - (x24 * x31 * x42) - (x41 * x22 * x34);
-            double delta4 = (x21 * x32 * x43) + (x22 * x33 * x41) + (x31 * x42 * x23) - (x23 * x32 * x41) - (x23 * x31 * x42) - (x41 * x22 * x33);
+            double delta1 = (x22 * x33 * x44) + (x23 * x34 * x42) + (x32 * x43 * x24) - (x24 * x33 * x42) - (x23 * x32 * x44) - (x43 * x22 * x34);
+            double delta2 = (x21 * x33 * x44) + (x23 * x34 * x41) + (x31 * x43 * x24) - (x24 * x33 * x41) - (x23 * x31 * x44) - (x43 * x21 * x34);
+            double delta3 = (x21 * x32 * x44) + (x22 * x34 * x41) + (x31 * x42 * x24) - (x24 * x32 * x41) - (x22 * x31 * x44) - (x42 * x21 * x34);
+            double delta4 = (x21 * x32 * x43) + (x22 * x33 * x41) + (x31 * x42 * x23) - (x23 * x32 * x41) - (x22 * x31 * x43) - (x42 * x21 * x33);
             double result = x11 * delta1 - x12 * delta2 + x13 * delta3 - x14 * delta4;
+
             listBox1.Items.Clear();
             listBox1.Items.Add(result.ToString());
         }
