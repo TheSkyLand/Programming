@@ -1,0 +1,16 @@
+C:\Users\Ученик\source\repos\Object-Oriented\Object-Oriented\obj\Debug\net8.0-windows\Object_Oriented.Form1.resources
+C:\Users\Ученик\source\repos\Object-Oriented\Object-Oriented\obj\Debug\net8.0-windows\Object-Oriented.csproj.GenerateResource.cache
+C:\Users\Ученик\source\repos\Object-Oriented\Object-Oriented\obj\Debug\net8.0-windows\Object-Oriented.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ученик\source\repos\Object-Oriented\Object-Oriented\obj\Debug\net8.0-windows\Object-Oriented.AssemblyInfoInputs.cache
+C:\Users\Ученик\source\repos\Object-Oriented\Object-Oriented\obj\Debug\net8.0-windows\Object-Oriented.AssemblyInfo.cs
+C:\Users\Ученик\source\repos\Object-Oriented\Object-Oriented\obj\Debug\net8.0-windows\Object-Oriented.csproj.CoreCompileInputs.cache
+C:\Users\Ученик\source\repos\Object-Oriented\Object-Oriented\bin\Debug\net8.0-windows\Object-Oriented.exe
+C:\Users\Ученик\source\repos\Object-Oriented\Object-Oriented\bin\Debug\net8.0-windows\Object-Oriented.deps.json
+C:\Users\Ученик\source\repos\Object-Oriented\Object-Oriented\bin\Debug\net8.0-windows\Object-Oriented.runtimeconfig.json
+C:\Users\Ученик\source\repos\Object-Oriented\Object-Oriented\bin\Debug\net8.0-windows\Object-Oriented.dll
+C:\Users\Ученик\source\repos\Object-Oriented\Object-Oriented\bin\Debug\net8.0-windows\Object-Oriented.pdb
+C:\Users\Ученик\source\repos\Object-Oriented\Object-Oriented\obj\Debug\net8.0-windows\Object-Oriented.dll
+C:\Users\Ученик\source\repos\Object-Oriented\Object-Oriented\obj\Debug\net8.0-windows\refint\Object-Oriented.dll
+C:\Users\Ученик\source\repos\Object-Oriented\Object-Oriented\obj\Debug\net8.0-windows\Object-Oriented.pdb
+C:\Users\Ученик\source\repos\Object-Oriented\Object-Oriented\obj\Debug\net8.0-windows\Object-Oriented.genruntimeconfig.cache
+C:\Users\Ученик\source\repos\Object-Oriented\Object-Oriented\obj\Debug\net8.0-windows\ref\Object-Oriented.dll
