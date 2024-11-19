@@ -97,12 +97,11 @@
             }
             &-all{
                 display: block;
+                align-self: center;
                 cursor: pointer;
                 margin-top: 48px;
                 width: 212px;
                 height: 48px;
-                display: block;
-                justify-self: center;
                 background-color: transparent;
                 color: #FF6A6A;
                 border: solid 1px;
@@ -235,33 +234,30 @@
 }
 .footer{
     width: 1600px;
-    margin: 0 auto;
     &-adv{
+        padding: 103px 230px;
+        display: flex;
         background-color: #222224;
         &-pls{
-            padding: 230px 103px;
-            height: 134px;
             width: 360px;
-            margin: 0 auto;
-            display: inline-block;
+            display: flex;
+            margin-right: 30px;
+            flex-direction: column;
             flex-wrap: wrap;
             justify-content: center;
-            align-content: center;
             align-items: center;
+            color: #FBFBFB;
             &-pic{
                 width: auto;
                 height: auto;
             }
-            color: #FBFBFB;
             &-title{
-                display: block;
                 margin: 28px 0 16px 0;
                 font-size: 20px;
                 line-height: 24px;
                 font-weight: 400;
             }
             &-text{
-                display: block;
                 font-size: 14px;
                 line-height: 17px;
                 font-weight: 400;
