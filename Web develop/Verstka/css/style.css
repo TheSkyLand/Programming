@@ -87,7 +87,7 @@
 }
 .main-featured-cards-all {
   display: block;
-  align-self: center;
+  justify-self: center;
   cursor: pointer;
   margin-top: 48px;
   width: 212px;
@@ -236,3 +236,50 @@
   line-height: 17px;
   font-weight: 400;
 }
+.footer-soc {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/img/footer-soc.jpg");
+  width: 1600px;
+}
+.footer-soc-fem {
+  width: 359px;
+  margin-bottom: 30px;
+  justify-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+.footer-soc-sub-title {
+  font-size: 24px;
+  display: flex;
+  justify-self: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 30px;
+}
+.footer-soc-sub-text {
+  font-size: 24px;
+  justify-self: center;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+.footer-soc-sub-input {
+  padding-left: 30px;
+  border-radius: 20px 0px 0px 20px;
+  width: 170px;
+  height: 36px;
+}
+.footer-soc-sub-btn {
+  text-transform: capitalize;
+  border-radius: 0px 20px 20px 0px;
+  width: 85px;
+  height: 36px;
+}/*# sourceMappingURL=style.css.map */
