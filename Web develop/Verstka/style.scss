@@ -244,6 +244,7 @@
         background-color: #222224;
 
         &-pls {
+            text-align: center;
             width: 360px;
             display: flex;
             margin-right: 30px;
@@ -274,31 +275,46 @@
     }
 
     &-soc {
-        margin: 0 auto;
         display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: center;
         background-image: url('/img/footer-soc.jpg');
         width: 1600px;
+        padding-top: 97px;
+        padding-bottom: 126px;
 
         &-fem {
-            width: 359px;
-            
+            margin-right: 223px;
             margin-bottom: 30px;
-            justify-self: center;
             display: flex;
             flex-wrap: wrap;
-            justify-self: center;
-            font-size: 20px;
-            font-weight: 400;
+            align-items: center;
+            justify-content: center;
+            width: 96px;
+            flex-direction: column;
 
+            &-text {
+                margin-right: 223px;
+                width: 360px;
+                display: flex;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: center;
+            }
         }
 
         &-sub {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 557px;
+            height: 142px;
+            margin-left: 223px;
 
             &-title {
-                font-size: 24px;
                 display: flex;
+                font-size: 24px;
                 justify-self: center;
                 text-transform: uppercase;
                 font-weight: bold;
@@ -306,10 +322,9 @@
             }
 
             &-text {
-
+                display: flex;
                 font-size: 24px;
                 justify-self: center;
-                display: flex;
                 text-transform: uppercase;
                 font-weight: 400;
                 line-height: 30px;
@@ -317,19 +332,35 @@
             }
 
             &-input {
-                padding-left: 30px;
+                padding-left: 22px;
                 border-radius: 20px 0px 0px 20px;
-                width: 170px;
-                height: 36px;
+                border: 0px;
+                width: 256px;
+                height: 50px;
             }
 
             &-btn {
+                cursor: pointer;
                 text-transform: capitalize;
                 border-radius: 0px 20px 20px 0px;
-                width: 85px;
-                height: 36px;
-
+                border: 0px;
+                width: 100px;
+                height: 50px;
+                background-color: #F16D7F;
             }
+        }
+    }
+
+    &-cprgt {
+        display: flex;
+        width: 1600px;
+        height: 79px;
+        background-color: #222224;
+        color: #FBFBFB;
+        justify-content: space-around;
+        align-items: center;
+        &-socials {
+            
         }
     }
 }
