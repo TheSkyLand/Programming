@@ -13,11 +13,8 @@
   display: flex;
   justify-content: space-between;
 }
-.menu-wrp- .menu-wrp-burger {
-  margin-right: 33px;
-}
-.menu-wrp-account {
-  margin-right: 33px;
+.menu-wrp-right {
+  display: flex;
 }
 .menu-wrp-logo {
   margin-right: 40px;
@@ -250,7 +247,7 @@
   background-image: url("/img/footer-soc.jpg");
   width: 1600px;
   padding-top: 97px;
-  padding-bottom: 123px;
+  padding-bottom: 126px;
 }
 .footer-soc-fem {
   margin-right: 223px;
@@ -320,25 +317,4 @@
   color: #FBFBFB;
   justify-content: space-around;
   align-items: center;
-}
-@media (max-width: 375px) {
-  .menu {
-    width: 375px;
-    display: flex;
-    justify-content: center;
-  }
-  .menu-wrp-right {
-    margin-right: 0px;
-    display: flex;
-  }
-  .menu-wrp-left {
-    display: flex;
-    justify-content: flex-end;
-  }
-  .menu-wrp-account {
-    display: none;
-  }
-  .menu-wrp-cart {
-    display: none;
-  }
 }/*# sourceMappingURL=style.css.map */

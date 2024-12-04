@@ -13,6 +13,14 @@
         padding: 20px 230px;
         display: flex;
         justify-content: space-between;
+        &-
+        &-burger {
+            margin-right: 33px;
+        }
+
+        &-account {
+            margin-right: 33px;
+        }
 
         &-logo {
             margin-right: 40px;
@@ -281,7 +289,7 @@
         background-image: url('/img/footer-soc.jpg');
         width: 1600px;
         padding-top: 97px;
-        padding-bottom: 126px;
+        padding-bottom: 123px;
 
         &-fem {
             margin-right: 223px;
@@ -359,8 +367,33 @@
         color: #FBFBFB;
         justify-content: space-around;
         align-items: center;
-        &-socials {
-            
+
+        &-socials {}
+    }
+}
+
+@media(max-width: 375px) {
+    .menu {
+        width: 375px;
+        display: flex;
+        justify-content: center;
+        &-wrp {
+            &-right{
+                margin-right: 0px;
+                display: flex;
+            }
+            &-left{
+                display: flex;
+                justify-content: flex-end;
+            }
+            &-account {
+                display: none;
+            }
+
+            &-cart {
+                display: none;
+            }
         }
     }
+
 }
