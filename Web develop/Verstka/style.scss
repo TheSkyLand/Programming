@@ -13,7 +13,6 @@
         padding: 20px 230px;
         display: flex;
         justify-content: space-between;
-        &-
         &-burger {
             margin-right: 33px;
         }
@@ -376,15 +375,20 @@
     .menu {
         width: 375px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         &-wrp {
+
             &-right{
-                margin-right: 0px;
                 display: flex;
+                justify-content: flex-end;
+                align-items: center;
             }
             &-left{
                 display: flex;
-                justify-content: flex-end;
+                justify-content: flex-start;
+                margin-right: 200px;
+                margin-left: 16px;
             }
             &-account {
                 display: none;
@@ -394,6 +398,31 @@
                 display: none;
             }
         }
+    }
+    .main{
+        width: 375px;
+        &-first{
+            background-image: none;
+            &-title{
+                display: flex;
+                flex-wrap: wrap;
+                padding: 148px 56px;
+                &-start{
+                    font-size: 20px;
+                }
+                &-end{
+                    font-size: 20px;
+                }
+                &-words{
+                    display: flex;
+                    font-size: 38px;
+                }
+            }
+        }
+        &-divider{
+            height: 61px;
+        }
+
     }
 
 }
