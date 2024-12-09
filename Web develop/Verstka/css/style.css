@@ -321,12 +321,13 @@
   justify-content: space-around;
   align-items: center;
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .menu {
-    width: 375px;
+    width: 768px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
   .menu-wrp-right {
     display: flex;
@@ -336,37 +337,91 @@
   .menu-wrp-left {
     display: flex;
     justify-content: flex-start;
-    margin-right: 200px;
-    margin-left: 16px;
-  }
-  .menu-wrp-account {
-    display: none;
-  }
-  .menu-wrp-cart {
-    display: none;
+    margin-right: 424px;
   }
   .main {
-    width: 375px;
+    width: 768px;
   }
   .main-first {
-    background-image: none;
+    background-size: 368px 368px;
   }
   .main-first-title {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 148px 56px;
-  }
-  .main-first-title-start {
-    font-size: 20px;
-  }
-  .main-first-title-end {
-    font-size: 20px;
+    padding: 135px 33px 135px 0px;
   }
   .main-first-title-words {
-    display: flex;
-    font-size: 38px;
+    line-height: 53px;
+    font-size: 44px;
+  }
+  .main-first-title-start {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .main-first-title-end {
+    font-size: 24px;
+    line-height: 29px;
   }
   .main-divider {
-    height: 61px;
+    display: flex;
+    right: 350px;
   }
-}/*# sourceMappingURL=style.css.map */
+  .main-discount {
+    background: no-repeat;
+  }
+}
+/*
+@media(max-width: 375px) {
+    .menu {
+        width: 375px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &-wrp {
+
+            &-right{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+            &-left{
+                display: flex;
+                justify-content: flex-start;
+                margin-right: 200px;
+                margin-left: 16px;
+            }
+            &-account {
+                display: none;
+            }
+
+            &-cart {
+                display: none;
+            }
+        }
+    }
+    .main{
+        width: 375px;
+        &-first{
+            background-image: none;
+            &-title{
+                display: flex;
+                flex-wrap: wrap;
+                padding: 148px 56px;
+                &-start{
+                    font-size: 20px;
+                }
+                &-end{
+                    font-size: 20px;
+                }
+                &-words{
+                    display: flex;
+                    font-size: 38px;
+                }
+            }
+        }
+        &-divider{
+            height: 61px;
+        }
+
+    }
+
+}
+    *//*# sourceMappingURL=style.css.map */
