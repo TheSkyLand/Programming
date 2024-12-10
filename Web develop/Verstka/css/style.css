@@ -7,26 +7,32 @@
   width: 1600px;
   margin: 0 auto;
   background-color: black;
-}
-.menu-wrp {
-  padding: 20px 230px;
   display: flex;
   justify-content: space-between;
 }
-.menu-wrp-burger {
-  margin-right: 33px;
+.menu-left {
+  display: flex;
+  padding: 10px 115px;
+  box-sizing: border-box;
 }
-.menu-wrp-account {
-  margin-right: 33px;
-}
-.menu-wrp-logo {
-  margin-right: 40px;
+.menu-left-logo {
+  margin-right: 41px;
   width: 40px;
   height: 40px;
 }
-.menu-wrp-search {
-  width: 40px;
-  height: 40px;
+.menu-left-search {
+  width: 26px;
+}
+.menu-right {
+  display: flex;
+  align-items: center;
+  padding: 10px 115px;
+}
+.menu-right-burger {
+  margin-right: 33px;
+}
+.menu-right-account {
+  margin-right: 33px;
 }
 
 .main {
@@ -106,13 +112,6 @@
   font-weight: 400;
   border-color: #FF6A6A;
 }
-.main-divider {
-  position: absolute;
-  width: 12px;
-  height: 95px;
-  background: #f16d7f;
-  right: 755px;
-}
 .main-first {
   position: relative;
   display: flex;
@@ -136,6 +135,13 @@
 }
 .main-first-title-end {
   color: #f16d7f;
+}
+.main-first-title-divider {
+  position: absolute;
+  width: 12px;
+  height: 95px;
+  background: #f16d7f;
+  right: 755px;
 }
 .main-discount {
   padding: 65px 230px;
@@ -325,19 +331,19 @@
   .menu {
     width: 768px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
-  .menu-wrp-right {
+  .menu-right {
+    padding: 5px 55px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
   }
-  .menu-wrp-left {
+  .menu-left {
+    padding: 5px 55px;
     display: flex;
     justify-content: flex-start;
-    margin-right: 424px;
   }
   .main {
     width: 768px;
@@ -360,12 +366,17 @@
     font-size: 24px;
     line-height: 29px;
   }
-  .main-divider {
-    display: flex;
+  .main-first-title-divider {
     right: 350px;
   }
   .main-discount {
-    background: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+  }
+  .main-discount-up-button {
+    width: 232px;
   }
 }
 /*
