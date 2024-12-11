@@ -160,6 +160,7 @@
             &-end {
                 color: #f16d7f;
             }
+
             &-divider {
                 position: absolute;
                 width: 12px;
@@ -391,7 +392,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
+
 
 
 
@@ -403,7 +404,7 @@
         }
 
         &-left {
-                        padding: 5px 55px;
+            padding: 5px 55px;
             display: flex;
             justify-content: flex-start;
         }
@@ -433,7 +434,8 @@
                     font-size: 24px;
                     line-height: 29px;
                 }
-                &-divider{
+
+                &-divider {
                     right: 350px;
                 }
 
@@ -447,14 +449,14 @@
             align-content: space-between;
 
             &-up {
-                
+
 
                 &-button {
                     width: 232px;
                 }
             }
-            &-down {
-            }
+
+            &-down {}
         }
     }
 }

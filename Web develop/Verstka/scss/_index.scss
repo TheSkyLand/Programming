@@ -53,7 +53,12 @@
 
     &-featured {
         padding-bottom: 95px;
-
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
         &-title {
 
             margin: 96px 0 0 0;
@@ -72,7 +77,7 @@
 
         &-cards {
             width: 1140px;
-            margin: 0 auto;             
+            margin: 0 auto;
 
             display: flex;
             flex-wrap: wrap;
@@ -118,6 +123,7 @@
             }
 
             &-all {
+                padding: 0px;
                 display: block;
                 justify-self: center;
                 cursor: pointer;
@@ -314,7 +320,7 @@
             justify-content: center;
             flex-direction: column;
 
-            &-text {    
+            &-text {
                 width: 360px;
                 display: flex;
                 font-size: 20px;

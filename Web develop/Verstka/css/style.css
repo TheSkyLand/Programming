@@ -41,6 +41,12 @@
 }
 .main-featured {
   padding-bottom: 95px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 .main-featured-title {
   margin: 96px 0 0 0;
@@ -98,6 +104,7 @@
   font-weight: 400;
 }
 .main-featured-cards-all {
+  padding: 0px;
   display: block;
   justify-self: center;
   cursor: pointer;
@@ -404,9 +411,12 @@
     margin-bottom: 48px;
   }
   .footer-soc {
+    width: 768px;
+    background-position: 25% 85%;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     padding: 0px;
-    width: 768px;
     flex-wrap: wrap;
     flex-direction: column;
   }
@@ -432,60 +442,94 @@
     width: 768px;
   }
 }
-/*
-@media(max-width: 375px) {
-    .menu {
-        width: 375px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        &-wrp {
-
-            &-right{
-                display: flex;
-                justify-content: flex-end;
-                align-items: center;
-            }
-            &-left{
-                display: flex;
-                justify-content: flex-start;
-                margin-right: 200px;
-                margin-left: 16px;
-            }
-            &-account {
-                display: none;
-            }
-
-            &-cart {
-                display: none;
-            }
-        }
-    }
-    .main{
-        width: 375px;
-        &-first{
-            background-image: none;
-            &-title{
-                display: flex;
-                flex-wrap: wrap;
-                padding: 148px 56px;
-                &-start{
-                    font-size: 20px;
-                }
-                &-end{
-                    font-size: 20px;
-                }
-                &-words{
-                    display: flex;
-                    font-size: 38px;
-                }
-            }
-        }
-        &-divider{
-            height: 61px;
-        }
-
-    }
-
-}
-    *//*# sourceMappingURL=style.css.map */
+@media (max-width: 375px) {
+  .menu {
+    width: 375px;
+    padding: 0px;
+    display: flex;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  .menu-right {
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .menu-right-account {
+    display: none;
+  }
+  .menu-right-cart {
+    display: none;
+  }
+  .menu-left {
+    padding: 0px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .main {
+    width: 375px;
+  }
+  .main-first {
+    width: 375px;
+    display: flex;
+    background-image: none;
+  }
+  .main-first-title {
+    padding: 149px 45px 149px 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-first-title-start {
+    line-height: 24px;
+    font-size: 20px;
+  }
+  .main-first-title-end {
+    line-height: 24px;
+    font-size: 20px;
+  }
+  .main-first-title-words {
+    line-height: 47px;
+    display: flex;
+    font-size: 38px;
+  }
+  .main-first-title-divider {
+    right: 300px;
+    height: 61px;
+  }
+  .main-discount {
+    padding: 16px;
+  }
+  .main-discount-up {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+  .main-discount-up-button {
+    width: 343px;
+    padding: 100px 43px;
+    margin-bottom: 32px;
+  }
+  .main-featured {
+    width: 375px;
+  }
+  .main-featured-cards {
+    width: 375px;
+  }
+  .footer {
+    width: 375px;
+  }
+  .footer-adv {
+    width: 375px;
+    padding: 48px 0px 0px 0px;
+  }
+  .footer-soc {
+    flex-wrap: nowrap;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 375px;
+  }
+}/*# sourceMappingURL=style.css.map */
