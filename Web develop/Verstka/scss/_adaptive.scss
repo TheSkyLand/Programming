@@ -1,0 +1,203 @@
+@media(max-width: 768px) {
+    .menu {
+        width: 768px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+
+
+        &-right {
+            padding: 5px 55px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        &-left {
+            padding: 5px 55px;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+    }
+
+    .main {
+        width: 768px;
+
+        &-first {
+            background-size: 368px 368px;
+
+            &-title {
+                padding: 135px 33px 135px 0px;
+
+                &-words {
+                    line-height: 53px;
+                    font-size: 44px;
+                }
+
+                &-start {
+                    font-size: 24px;
+                    line-height: 29px;
+                }
+
+                &-end {
+                    font-size: 24px;
+                    line-height: 29px;
+                }
+
+                &-divider {
+                    right: 350px;
+                }
+
+            }
+        }
+
+        &-discount {
+            padding: 16px;
+            display: block;
+
+            &-up {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+
+                &-button {
+                    width: 232px;
+                    padding: 45px 43px;
+                    background-size: contain;
+                }
+
+                &>.main-discount-up-button:nth-child(2) {
+                    background-size: contain;
+                }
+
+                &>.main-discount-up-button:nth-child(3) {
+                    background-size: contain;
+                }
+
+
+            }
+
+            &-down {
+                padding: 33px;
+            }
+        }
+
+        &-featured {
+            &-cards {
+                justify-content: space-around;
+                width: 768px;
+
+            }
+        }
+    }
+
+    .footer {
+        width: 768px;
+
+        &-adv {
+            flex-direction: column;
+
+            &-pls {
+                margin-bottom: 48px;
+            }
+        }
+
+        &-soc {
+            display: flex;
+            padding: 0px;
+            width: 768px;
+            flex-wrap: wrap;
+            flex-direction: column;
+
+            &-fem {
+                margin-top: 64px;
+                margin-bottom: 48px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+
+                &-text {
+                    margin-right: 0px;
+                }
+            }
+            &-sub {
+                margin-bottom: 140px;
+            }
+
+            &-sub {
+                margin-left: 0px;
+            }
+        }
+        &-cprgt{
+            width: 768px;
+        }
+
+    }
+}
+
+
+
+/*
+@media(max-width: 375px) {
+    .menu {
+        width: 375px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &-wrp {
+
+            &-right{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+            &-left{
+                display: flex;
+                justify-content: flex-start;
+                margin-right: 200px;
+                margin-left: 16px;
+            }
+            &-account {
+                display: none;
+            }
+
+            &-cart {
+                display: none;
+            }
+        }
+    }
+    .main{
+        width: 375px;
+        &-first{
+            background-image: none;
+            &-title{
+                display: flex;
+                flex-wrap: wrap;
+                padding: 148px 56px;
+                &-start{
+                    font-size: 20px;
+                }
+                &-end{
+                    font-size: 20px;
+                }
+                &-words{
+                    display: flex;
+                    font-size: 38px;
+                }
+            }
+        }
+        &-divider{
+            height: 61px;
+        }
+
+    }
+
+}
+    */
