@@ -305,7 +305,7 @@
 
     &-soc {
         display: flex;
-        justify-content: center;
+        justify-content: center ;
         align-items: center;
         background-image: url('/img/footer-soc.jpg');
         width: 1600px;
@@ -331,12 +331,13 @@
         }
 
         &-sub {
+            width: 557px;
+            margin-left: 223px;
+            padding: 0px;
             display: flex;
             flex-wrap: wrap;
+            align-items: center;
             justify-content: center;
-            width: 557px;
-            height: 142px;
-            margin-left: 223px;
 
             &-title {
                 display: flex;
@@ -380,10 +381,12 @@
     &-cprgt {
         display: flex;
         width: 1600px;
-        height: 79px;
         background-color: #222224;
         color: #FBFBFB;
         justify-content: space-around;
         align-items: center;
+        &-socials{
+            padding: 24px;
+        }
     }
 }

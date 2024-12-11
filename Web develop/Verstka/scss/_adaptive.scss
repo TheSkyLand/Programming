@@ -251,11 +251,27 @@
             padding: 48px 0px 0px 0px;
         }
         &-soc{
-            flex-wrap: nowrap;
             padding-top: 0px;
             padding-bottom: 0px;
             width: 375px;
-            &-fem{
+            &-sub{
+                width: 341px;
+                display: flex;
+                &-input{
+                    width: auto;
+                }
+                &-text{
+                    font-size: 14px;
+                }
+            }
+        }
+        &-cprgt{
+            display: flex;
+            flex-direction: column-reverse;
+            width: 375px;
+            &-socials{
+                margin-top: 43px;
+                margin-bottom: 40px;
             }
         }
     }
