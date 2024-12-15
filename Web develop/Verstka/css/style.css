@@ -119,6 +119,13 @@
   font-weight: 400;
   border-color: #FF6A6A;
 }
+.main-featured-cards-all:hover {
+  background-color: #F16D7F;
+  color: #ffffff;
+}
+.main-featured-cards:hover {
+  background-color: rgba(58, 56, 56, 0.8588235294);
+}
 .main-first {
   position: relative;
   display: flex;

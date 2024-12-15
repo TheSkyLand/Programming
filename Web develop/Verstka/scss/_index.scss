@@ -90,6 +90,7 @@
                 cursor: pointer;
                 border: none;
 
+
                 &-title {
                     margin: 25px 18px 13px 18px;
                     display: block;
@@ -120,7 +121,10 @@
                     line-height: 19px;
                     font-weight: 400;
                 }
+
+
             }
+            
 
             &-all {
                 padding: 0px;
@@ -138,6 +142,14 @@
                 font-weight: 400;
                 border-color: #FF6A6A;
             }
+            
+            &-all:hover {
+                background-color: #F16D7F;
+                color: #ffffff;
+            }
+        }
+        &-cards:hover {
+            background-color: #3A3838DB;
         }
     }
 
