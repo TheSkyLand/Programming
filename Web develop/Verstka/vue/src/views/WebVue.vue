@@ -77,6 +77,7 @@
                     <figure class="main-featured-cards">
                         <button class="main-featured-cards-btn">
                             <img class="main-featured-cards-btn-img" src="/img/clothes1.png" width="360" height="420">
+                            <div class="main-featured-cards-btn-img-over"></div>
                             <span class="main-featured-cards-btn-title">ellery x m`o capsule</span>
                             <span class="main-featured-cards-btn-text">Known for her sculptural takes on
                                 traditional tailoring. Australian arbiter of cool Kym Ellery teams up with Moda
@@ -167,7 +168,7 @@
                     </div>
                 </div>
                 <div class="footer-cprgt">
-                    <div>© 2021 Brand All Rights Reserved.</div>
+                    <div class="footer-cprgt-text">© 2021 Brand All Rights Reserved.</div>
                     <div class="footer-cprgt-socials">
                         <button class="footer-cprgt-socials-icon"><img src="/img/fcbk.png"></button>
                         <button class="footer-cprgt-socials-icon"><img src="/img/inst.png"></button>
@@ -289,15 +290,12 @@
             align-items: center;
             align-self: center;
 
+
             &-btn {
                 margin-top: 30px;
                 cursor: pointer;
                 border: none;
 
-                &-img:hover {
-                    color: #3A3838DB;
-
-                }
 
 
 
@@ -605,53 +603,275 @@
         color: #FBFBFB;
         justify-content: space-around;
         align-items: center;
-
+        &-text {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+        }
         &-socials {
             display: flex;
             width: 148px;
             padding: 24px;
             justify-content: space-between;
+
             &-icon {
+                color: transparent;
                 background: transparent;
                 border: 0px;
                 cursor: pointer;
                 transition: 1s ease;
             }
+
             &-icon:hover {
-                mix-blend-mode: multiply;
-                background-color: #F16D7F;
+                mix-blend-mode: multiply #F16D7F;
             }
         }
     }
 }
 
+@media(min-width: 2560px) {
+    .wrap {
+        width: 2560px;
+    }
 
+    .menu {
+        width: 2560px;
+        height: 150px;
+
+        &-left {
+            width: 222px;
+
+            &-logo {
+                scale: 200%;
+            }
+
+            &-search {
+                scale: 200%
+            }
+        }
+
+        &-right {
+            width: 438px;
+
+            &-burger {
+                scale: 200%
+            }
+
+            &-account {
+                scale: 200%
+            }
+
+            &-cart {
+                scale: 200%
+            }
+        }
+    }
+
+    .main {
+        width: 2560px;
+
+        &-first {
+            background-position-x: 250px;
+            width: 2560px;
+
+            &-title {
+                padding: 250px 330px 380px 0;
+                font-size: 64px;
+
+                &-divider {
+                    position: absolute;
+                    width: 24px;
+                    height: 150px;
+                    background: #f16d7f;
+                    right: 1220px;
+                }
+
+                &-words {
+                    line-height: 96px;
+                    font-size: 96px;
+                }
+
+                &-start {
+                    line-height: 64x;
+                    font-size: 64px;
+                }
+            }
+
+        }
+
+        &-discount {
+            width: 2560px;
+            padding: 125px 160px;
+
+            &-up {
+                &-button {
+                    width: 720px;
+                    background-size: cover;
+                    padding: 195px 103px;
+                    &-percent {
+                        font-size: 64px;
+                        line-height: 64px;
+                    }
+                    &-human {
+                        font-size: 64px;
+                        line-height: 64px;
+                    }
+                }
+                
+
+                &>.main-discount-up-button:nth-child(2) {
+                    background-size: contain;
+                }
+
+                &>.main-discount-up-button:nth-child(3) {
+                    background-size: contain;
+                }
+            }
+            &-down {
+                padding: 130px;
+                background-size: contain;
+                &-percent {
+                    font-size: 32px;
+                    line-height: 32px;
+                }
+                &-text {
+                    font-size: 32px;
+                    line-height: 32px;
+                }
+            }
+        }
+
+        &-featured {
+            width: 2560px;
+            &-title{
+                font-size: 60px;
+            }
+            &-subtitle {
+                font-size: 28px;
+            }
+            &-cards {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                &-btn {
+                    &-title {
+                        font-size: 26px;
+                    }
+                    &-text {
+                        font-size: 20px;
+                        line-height: 20px;
+                    }
+                    &-price {
+                        font-size: 20px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        width: 2560px;
+        &-adv {
+            width: auto;
+            display: flex;
+            justify-content: space-around;
+            &-pls {
+                width: 720px;
+                &-title {
+                    font-size: 40px;
+                }
+                &-text {
+                    font-size: 28px;
+                    line-height: 28px;
+                }
+            }
+        }
+        &-soc {
+            padding-top: 200px;
+            padding-bottom: 200px;
+            background-size: cover;
+            width: 2560px;
+            &-fem {
+                scale: 125%;
+            }
+            
+        }
+        &-sub {
+            scale: 125%;
+        }
+        &-cprgt {
+            width: 2560px;
+            &-text {
+                font-size: 28px;
+            }
+            &-socials {
+                scale: 125%;
+            }
+        }
+    }
+}
+
+@media(max-width: 1440px) {
+    .wrap {
+        width: 1440px;
+    }
+
+    .menu {
+        width: 1440px;
+    }
+
+    .main {
+        width: 1440px;
+
+        &-first {
+            width: 1440px;
+        }
+
+        &-discount {
+            width: 1440px;
+            padding: 65px 160px;
+        }
+
+        &-featured {
+            width: 1440px;
+        }
+    }
+
+    .footer {
+        width: 1440px;
+
+        &-soc {
+            width: 1440px;
+        }
+
+        &-cprgt {
+            width: 1440px;
+        }
+    }
+}
 
 
 @media(max-width: 768px) {
     .wrap {
         width: 768px;
     }
+
     .menu {
-        width: 768px;
-        display: flex;
         justify-content: space-between;
-        align-items: center;
-
-
+        width: 768px;
 
 
         &-right {
-            padding: 5px 55px;
+            padding: 0px 0px;
             display: flex;
-            justify-content: flex-end;
+            justify-content: space-around;
             align-items: center;
         }
 
         &-left {
-            padding: 5px 55px;
+            padding: 0px 0px;
             display: flex;
-            justify-content: flex-start;
+            justify-content: space-around;
         }
 
     }
@@ -660,6 +880,7 @@
         width: 768px;
 
         &-first {
+            width: 768px;
             background-size: 368px 368px;
 
             &-title {
@@ -688,6 +909,7 @@
         }
 
         &-discount {
+            width: 768px;
             padding: 16px;
             display: block;
 
@@ -720,6 +942,7 @@
         }
 
         &-featured {
+            width: 768px;
             &-cards {
                 justify-content: space-around;
                 width: 768px;
@@ -787,12 +1010,14 @@
     .wrap {
         width: 375px;
     }
+
     .menu {
         width: 375px;
         padding: 0px;
         display: flex;
         padding-top: 18px;
         padding-bottom: 18px;
+        justify-content: space-around;
 
         &-right {
             padding: 0px;
@@ -811,9 +1036,11 @@
 
         &-left {
             padding: 0px;
-            margin-left: 16px;
             display: flex;
-            justify-content: flex-start;
+            justify-content: space-between;
+        }
+        &-right {
+            
         }
     }
 
@@ -856,6 +1083,7 @@
         }
 
         &-discount {
+            width: 375px;
             padding: 16px;
 
             &-up {
