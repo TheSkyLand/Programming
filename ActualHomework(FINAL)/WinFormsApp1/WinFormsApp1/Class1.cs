@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
-    internal class Class1
+    public class Class1
     {
         public int M
         {
@@ -46,23 +46,22 @@ namespace WinFormsApp1
         //матрица
         private double[,] a;
 
-        //переменная для количества
-        
+        //переменная результата
+        protected double result;
 
         //переменная для сохранения данных
         protected double[] MaxEl;
-        public void MeanElement() 
+        public double MeanElement(double[,] A)
         {
 
-            MaxEl = new double[m];
             for (int i = 0; i < m; i++)
             {
-                MaxEl = new double[n];
                 for (int j = 0; j < n; j++)
-                { 
-                    sum += a[i, j];
+                {
+                    sum += a[i, j] / k;
                 }
             }
+            return result;
         }
     }
     public class ResSup : Class1
@@ -82,10 +81,10 @@ namespace WinFormsApp1
         public void Output(ListBox LB)
         {
             LB.Items.Clear();
-            for(int i = 0; i < M; i++)
+            for (int i = 0; i < M; i++)
             {
                 string s = "";
-                for(int j = 0; j < N; j++)
+                for (int j = 0; j < N; j++)
                 {
                     if (A[i, j] >= 10)
                         s += " " + A[i, j].ToString() + "  ";
@@ -99,5 +98,20 @@ namespace WinFormsApp1
                 LB.Items.Add(s);
             }
         }
+        public void OutputFilter(ListBox LB, TextBox TX)
+        {
+            for (int i = 0; i < M; i++)
+            {
+                for (int j = 0; j < N; j++)
+                {
+                    double o = A[i, j];
+                    if (sum < o)
+                    {
+                        LB.Items.Add((double)o);
+                    }
+                }
+            }
+        }
     }
 }
+
