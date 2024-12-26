@@ -1,0 +1,33 @@
+C:\Users\Aradi\OneDrive\Desktop\Programming-main\ActualHomework(FINAL)\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form1.resources
+C:\Users\Aradi\OneDrive\Desktop\Programming-main\ActualHomework(FINAL)\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\Users\Aradi\OneDrive\Desktop\Programming-main\ActualHomework(FINAL)\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aradi\OneDrive\Desktop\Programming-main\ActualHomework(FINAL)\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\Aradi\OneDrive\Desktop\Programming-main\ActualHomework(FINAL)\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfo.cs
+C:\Users\Aradi\OneDrive\Desktop\Programming-main\ActualHomework(FINAL)\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Aradi\OneDrive\Desktop\Programming-main\ActualHomework(FINAL)\WinFormsApp1\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.exe
+C:\Users\Aradi\OneDrive\Desktop\Programming-main\ActualHomework(FINAL)\WinFormsApp1\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.deps.json
+C:\Users\Aradi\OneDrive\Desktop\Programming-main\ActualHomework(FINAL)\WinFormsApp1\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\Aradi\OneDrive\Desktop\Programming-main\ActualHomework(FINAL)\WinFormsApp1\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\Aradi\OneDrive\Desktop\Programming-main\ActualHomework(FINAL)\WinFormsApp1\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\Aradi\OneDrive\Desktop\Programming-main\ActualHomework(FINAL)\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\Aradi\OneDrive\Desktop\Programming-main\ActualHomework(FINAL)\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\refint\WinFormsApp1.dll
+C:\Users\Aradi\OneDrive\Desktop\Programming-main\ActualHomework(FINAL)\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\Aradi\OneDrive\Desktop\Programming-main\ActualHomework(FINAL)\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\Aradi\OneDrive\Desktop\Programming-main\ActualHomework(FINAL)\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form1.resources
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfo.cs
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\refint\WinFormsApp1.dll
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.exe
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.deps.json
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\Gamer\Documents\GitHub\Новая папка\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
